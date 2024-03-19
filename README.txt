@@ -16,6 +16,8 @@ javac StudentManagement.java
 java StudentManagement
 
 Note: If there is an error message, check if the driver is in the same classpath with the application/check if we already add the driver to the dependencies.
+Since I am using IntelliJ, here is the way I set up the driver: https://www.youtube.com/watch?v=-MDPYDi01dM
+Sorry for any inconvenience.
 
 
 
