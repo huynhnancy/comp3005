@@ -6,7 +6,7 @@ Nancy Huynh
 
 ## Set up:
 - Java Development Kit (JDK) Version 19 or up
-- PostgreSQL JDBC driver added to the project dependencies (Mine is using version 42.6.2)
+- PostgreSQL JDBC driver added to the project dependencies (Mine is using version 42.7.3)
 - PostgreSQL database server (pgAdmin) installed and running
 - Create the database, table, and appropriate columns by using DatabaseCreation.txt
 - Update the information in the application (url, user, password) if there is any change
@@ -14,5 +14,8 @@ Nancy Huynh
 ## Compile and run:
 javac StudentManagement.java
 java StudentManagement
+
+Note: If there is an error message, check if the driver is in the same classpath with the application/check if we already add the driver to the dependencies.
+
 
 
